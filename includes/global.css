@@ -1,0 +1,44 @@
+body {
+    color: #000000;
+    background-color: #EDEDED;
+    font-family: sans-serif;
+}
+
+A:hover {
+    color: #FF0000;
+    background-color: transparent;
+}
+A:link {
+    color: #0000C0;
+    background-color: transparent;
+}
+A:visited {
+    color: #900000;
+    background-color: transparent;
+}
+A:active {
+    color: #FF4040;
+    background-color: transparent;
+}
+
+P { margin-top: 0; margin-bottom: 0; text-align: justify; }
+
+TABLE.rightImg {
+    clear: right;
+    float: right;
+    margin: 0 0 0.5em 0.5em;
+    padding: 0;
+    border-width: 0;
+}
+
+.imgCaption { font-size: 70%; }
+
+.center {
+    alignment: center;
+    text-align-all: center;
+    text-align: center;
+}
+
+.tt {
+    font-family: "Courier New", Courier, monospace;
+}
