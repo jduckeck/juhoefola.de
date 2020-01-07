@@ -31,6 +31,10 @@ TABLE.rightImg {
     border-width: 0;
 }
 
+.clear {
+    clear: both;
+}
+
 .imgCaption { font-size: 70%; }
 
 .center {
@@ -41,4 +45,10 @@ TABLE.rightImg {
 
 .tt {
     font-family: "Courier New", Courier, monospace;
+}
+
+.email {
+    cursor: pointer;
+    border-style: none;
+    margin: 0;
 }
