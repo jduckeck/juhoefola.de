@@ -52,3 +52,48 @@ TABLE.rightImg {
     border-style: none;
     margin: 0;
 }
+
+figure {
+    display: table;
+    padding: 0;
+    border-width: 0;
+    width: 20px;
+}
+
+figure.right {
+    clear: right;
+    float: right;
+    margin: 0 0 0.5em 0.5em;
+}
+
+figure.left {
+    clear: left;
+    float: left;
+    margin: 0 0.5em 0.5em 0;
+}
+
+figure.center {
+    clear: both;
+    float: none;
+    margin: 1em auto;
+    width: 600px;
+}
+
+figcaption {
+    font-size: 80%;
+}
+
+div.covid19 {
+    background-color: white;
+    font-weight: bolder;
+    border: black;
+    border-width: 2px;
+    width: 50%;
+    margin: 2rem auto;
+    padding: 20px;
+}
+
+.closed {
+    text-decoration: line-through;
+}
+
